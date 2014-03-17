@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+   <TextView
+       android:id="@+id/textJob"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:paddingTop="15dip"
+       android:text="Job ID:"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/jobid"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingBottom="15dip"
+       android:paddingRight="15dip"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp" />
+
+  <TextView
+      android:id="@+id/textClient"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="15dip"
+      android:paddingRight="15dip"
+      android:text="Client:"
+      android:textSize="15sp"
+      android:textColor="#5d5d5d"
+      android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/clientName"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:paddingBottom="15dip"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/textAddress"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:text="Address:"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp"
+       android:textStyle="bold" />
+  
+   <TextView
+       android:id="@+id/clientAddress"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:paddingBottom="15dip"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp" />
+
+ 	<TextView
+ 	    android:id="@+id/textDate"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:paddingLeft="15dip"
+ 	    android:paddingRight="15dip"
+ 	    android:text="Appointment Date:"
+ 	    android:textColor="#5d5d5d"
+ 	    android:textSize="15sp"
+ 	    android:textStyle="bold" />
+ 
+   <TextView
+       android:id="@+id/appointmentDate"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:paddingBottom="15dip"
+       android:textColor="#5d5d5d"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/textDescription"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:paddingRight="15dip"
+       android:text="Description:"
+       android:textSize="15sp"
+       android:textColor="#5d5d5d"
+       android:textStyle="bold" />
+
+   <TextView android:id="@+id/jobDescription1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            android:paddingBottom="15dip"
+            android:textColor="#5d5d5d"/>
+
+    <TextView
+        android:id="@+id/textRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="Remarks:"
+        android:textSize="15sp"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+ 
+   <TextView android:id="@+id/jobRemarks1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            android:paddingBottom="15dip"
+            android:textColor="#5d5d5d"/>
+   <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="Status:"
+        android:textColor="#5d5d5d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+ 
+   <TextView android:id="@+id/jobStatus1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            android:paddingBottom="15dip"
+            android:textColor="#5d5d5d"/>
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="15dip"
+       android:textColor="#5d5d5d"
+       android:text="Start Job" />
+   
+</LinearLayout>
+</ScrollView>
